@@ -1,14 +1,16 @@
-# Simple configurable expression parser in pure Python
+Simple configurable expression parser in pure Python
+====================================================
 
 Authors: Andrey Popelo <andrey@popelo.com>
 
 
-# Usage
+Usage
+-----
 
 1. Subclass ExpressionParser and define a syntax.
 2. Instantiate it and call parse() method.
 
-The syntax definition for the parser looks like this:
+The syntax definition for the parser looks like this::
 
     # (!) order is important
     syntax = [
@@ -69,7 +71,8 @@ The syntax definition for the parser looks like this:
 See code examples in example.py file.
 
 
-# License
+License
+-------
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -85,7 +88,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-# More info
+More info
+---------
 
 See a blog post about ExpressionParser[1].
 
